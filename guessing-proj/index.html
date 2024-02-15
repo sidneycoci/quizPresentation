@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proj1Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>All About Sidney Quiz</h1>
+
+        <canvas id="confettiCanv"></canvas>
+
+        <p id="score">Score: <span class="scoreElement">0</span></p>
+
+        <div class="question">
+            <h2>Question 1: What is my favorite color?</h2>
+            <div class="buttonContainer">
+                <button class ="answer">Red</button>
+                <button class ="answer">Blue</button>
+                <button class="correct" class ="confetti" class ="answer">Green</button>
+            </div>
+
+            <div class = "answerReveal">
+                <p> Sorry! The correct answer is GREEN!</p>
+            </div>
+
+        </div>
+
+        <div class="question">
+            <h2>Question 2: Where am I from?</h2>
+            <div class="buttonContainer">
+                <button class ="answer">Massachusetts</button>
+                <button class="correct" class ="confetti" class ="answer">Maryland</button>
+                <button class ="answer">Florida</button>
+            </div>
+
+            <div class="answerReveal">
+                <p>Sorry! The correct answer was MARYLAND</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>Question 3: What are my majors?</h2>
+            <div class="buttonContainer">
+                <button class ="answer">Computer Science and Immersive Media</button>
+                <button class ="answer">Computer Engineering and Interactive Media</button>
+                <button class="correct" class ="confetti" class ="answer">Computer Science and Interactive Media</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>Question 4: What is my favorite TV show?</h2>
+            <div class="buttonContainer">
+                <button class ="answer">Shameless</button>
+                <button class="correct" class ="confetti" class ="answer">Bojack Horseman</button>
+                <button class ="answer">The Vampire Diaries</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>Question 5: Who is my favorite music artist?</h2>
+            <div class="buttonContainer">
+                <button>SZA</button>
+                <button>Taylor Swift</button>
+                <button class="correct" class ="confetti">Tyler the Creator</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>Question 6: How many siblings do I have?</h2>
+            <div class="buttonContainer">
+                <button class="correct" class ="confetti">2</button>
+                <button>3</button>
+                <button>0</button>
+            </div>
+        </div>
+        
+
+        <div class="question">
+            <h2>Question 7: What sport do I play most?</h2>
+            <div class="buttonContainer">
+                <button>Tennis</button>
+                <button class="correct" class ="confetti">Soccer</button>
+                <button>Badminton</button>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+
+    <script src="proj1Logic.js"></script>
+</body>
+
+</html>
